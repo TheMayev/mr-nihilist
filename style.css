@@ -1,1 +1,44 @@
-/* stylesheet */
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  
+}
+
+body {
+  font-family: Georgia, Times, "Times New Roman";
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: #ffffff; 
+}
+
+
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block; 
+  margin: 0.5rem; 
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  background-color: #333;
+}
+
+main {
+  margin-top: 30px;
+}
