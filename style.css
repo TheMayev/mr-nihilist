@@ -1,0 +1,80 @@
+/* Universal CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+
+
+ 
+/* Navigation Bar */
+
+.menu-bar {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style-type: none;
+  color: black;
+}
+
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px; 
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: black
+}
+
+.active, .menu-bar ul li:hover {
+  background: red;
+  border-radius: 3px;
+}
+
+.dropdwn-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdwn-1 {
+  display: block;
+  position: absolute;
+  background: aliceblue; 
+  margin-top: 15px; 
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .dropdwn-1 ul {
+  display: block; 
+  margin: 10px; 
+}
+
+.menu-bar ul li:hover .dropdwn-1 ul li {
+  width: 150px; 
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .dropdwn-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .dropdwn-1 ul li a:hover {
+  color: blue; 
+}
